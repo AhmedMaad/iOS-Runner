@@ -67,3 +67,7 @@ jobs:
           name: ios-app-simulator
           path: iosApp.zip
           retention-days: 5
+
+# Give execution permission to gradlew
+- name: Make gradlew executable
+  run: chmod +x gradlew
